@@ -1,0 +1,88 @@
+# 🚀 15 Days of Playwright
+
+A 15-day deep dive into Microsoft Playwright, exploring its powerful features for browser automation, testing, and web scraping.
+
+[![Playwright Version](https://img.shields.io/badge/Playwright-1.40+-blue)](https://playwright.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## 📖 Motivation
+
+As modern web applications become increasingly complex, having reliable testing tools is crucial. Playwright emerged as a next-generation solution addressing pain points from older tools like Selenium and Cypress:
+
+- **True cross-browser testing** (Chromium, Firefox, WebKit)
+- **Auto-waiting** and **web-first assertions**
+- **Mobile device emulation** out-of-the-box
+- **Unified API** across all browsers
+
+This project documents my 15-day journey mastering Playwright's capabilities while building practical test automation solutions.
+
+## 🛠 Technologies Used
+
+| Technology     | Purpose                        |
+| -------------- | ------------------------------ |
+| Playwright     | Core test automation framework |
+| Node.js (v20+) | JavaScript runtime             |
+| GitHub Actions | CI/CD integration              |
+| Allure Reports | Test reporting (optional)      |
+
+## 📚 Daily Progress
+
+### Day 1: Getting Started
+
+- **Covered Topics**:
+  - Playwright vs Selenium vs Cypress comparison
+  - Environment setup
+  - First test with screenshots
+- **Key Files**:
+  - [`tests/day01.test.js`](tests/day01.test.js)
+- **Article**: [15 Days of Playwright - Day 1](https://jhonatasmatos.com/posts/15_days_playwright_day_01)
+
+_(New articles will be linked here daily)_
+
+## 🏃‍♂️ Getting Started
+
+1. Clone repository:
+
+```bash
+git clone https://github.com/jhonatasmatos/15-days-of-playwright.git
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Run Day 1 test
+
+```bash
+npx playwright test tests/day01.test.js
+```
+
+## 📂 Project Structure
+
+```text
+15-days-of-playwright/
+├── tests/               # Test files (day01.test.js, etc.)
+├── assets/              # Screenshots/videos
+├── playwright.config.js # Configuration
+└── package.json         # Dependencies
+```
+
+## ⭐ Star Support
+
+If this project helped you learn Playwright or saved you time, consider giving it a star!
+
+[![GitHub Stars](https://img.shields.io/github/stars/jhonatasmatos/15-days-of-playwright?style=social)](https://github.com/jhonatasmatos/15-days-of-playwright)
+
+Your support helps:
+
+- 📢 Increase the project's visibility
+- 🎯 Prioritize future content
+- 💡 Motivate more open-source contributions
+
+Just click the ★ Star button at the top right of the GitHub repo!
+
+## 🤝 Contributing
+
+Found an issue or have suggestions? Open an issue or PR!
