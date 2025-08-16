@@ -1,0 +1,22 @@
+{
+  "name": "15-days-of-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonatasmatos/15-days-of-playwright.gi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonatasmatos/15-days-of-playwright.gi/issues"
+  },
+  "homepage": "https://github.com/jhonatasmatos/15-days-of-playwright.gi#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.3.0"
+  }
+}
